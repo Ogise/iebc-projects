@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kenyan Counties and Constituencies</title>
+<script src="county.js"></script>
+</head>
+<body>
+
+<label for="counties">Select a County:</label>
+<select id="counties" onchange="showConstituencies()">
+  <option value="">Select County</option>
+  <option value="Nairobi">Nairobi</option>
+  <option value="Mombasa">Mombasa</option>
+  <option value="Kisumu">Kisumu</option>
+  <option value="Nakuru">Nakuru</option>
+  <option value="Eldoret">Eldoret</option>
+</select>
+
+<label for="constituencies">Select a Constituency:</label>
+<select id="constituencies" onchange="showCounty()">
+  <option value="">Select Constituency</option>
+</select>
+
+</body>
+</html>
